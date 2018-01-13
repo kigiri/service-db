@@ -1,7 +1,8 @@
 {
   "name": "service-db",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple redis binding to netcall",
+  "icon": "database",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +18,9 @@
     "url": "https://github.com/kigiri/service-db/issues"
   },
   "homepage": "https://github.com/kigiri/service-db#readme",
+  "debianDependencies": [
+    "redis-server"
+  ],
   "dependencies": {
     "netcall": "^2.1.2",
     "redis": "^2.8.0"
