@@ -22,7 +22,7 @@
     "redis-server"
   ],
   "dependencies": {
-    "netcall": "^2.1.2",
+    "netcall": "^2.4.0",
     "redis": "^2.8.0"
   }
 }
